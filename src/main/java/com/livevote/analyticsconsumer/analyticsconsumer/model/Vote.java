@@ -1,6 +1,9 @@
 package com.livevote.analyticsconsumer.analyticsconsumer.model;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Column;
+import jakarta.persistence.Table;
 import lombok.Data;
 
 import java.time.Instant;
